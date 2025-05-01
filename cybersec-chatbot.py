@@ -9,10 +9,10 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQA
 
 # Config
-BOOKS_DIR = "books"
+BOOKS_DIR = "F:\\book\\python_pentest_PDFs\\"
 INDEX_DIR = "vectorstore"
 EMB_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-LLM_PATH   = "ggml-gpt4all-j-v1.3-groovy.bin"
+LLM_PATH   = "F:\\book\\models\\ggml-gpt4all-j-v1.3-groovy.bin"
 
 def load_store():
     if os.path.isdir(INDEX_DIR):
